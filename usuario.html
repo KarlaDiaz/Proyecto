@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Coffee Tec</title>
+	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="slider/responsiveslides.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href='http://fonts.googleapis.com/css?family=Sonsie+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Offside' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+	
+	<div id="container">
+		<header>
+			<h1 id="logo"><a href="index_2.php">Coffee Tec</a></h1>
+		</header>
+		<nav id="menu_principal">
+			<a href="#" id="link_menu">Menú</a>
+			<ul>
+				<li class="active">
+			</ul>
+		</nav>
+		<section id="content">
+			
+		    <!-- Productos mas pedidos -->
+			<div id="productos"  align="center">
+			  <h1 style="font-size:40px; height:10px; width:500px">Datos Usuario</h1>
+              <form id="form1" name="form1" method="post" action="php/P_usuarios.php" enctype="multipart/form-data">
+                <table width="564" border="0" align="center">
+   	    <tr align="center">
+   	      <td colspan="2"><strong><font size="+1"><h2>Registrate</h2></font></strong></td>
+        </tr>
+   	    <tr>
+   	      <td nowrap="nowrap">&nbsp;</td>
+   	      <td nowrap="nowrap">&nbsp;</td>
+        </tr>
+   	    <tr>
+   	      <td width="203" nowrap="nowrap"><font size="+1">Nombre de usuario:</font></td>
+   	      <td width="345" nowrap="nowrap"><input name="TXT_Usuario" type="text" id="TXT_Usuario" size="50" maxlength="50"  /></td>
+        </tr>
+        <tr>
+   	      <td width="203" nowrap="nowrap"><font size="+1">Contraseña:</font></td>
+   	      <td width="345" nowrap="nowrap"><input name="TXT_Contrasenia" type="password" id="TXT_Contrasenia" size="50" maxlength="50"  /></td>
+        </tr>
+   	    <tr>
+   	      <td nowrap="nowrap"><font size="+1">Nombre:</font></td>
+   	      <td nowrap="nowrap"><input name="TXT_Nombre" type="text" id="TXT_Nombre" size="50" maxlength="50" /></td>
+        </tr>
+   	    <tr>
+   	      <td nowrap="nowrap"><font size="+1">Apellido Paterno:</font></td>
+   	      <td nowrap="nowrap"><input name="TXT_Paterno" type="text" id="TXT_Paterno" size="50" maxlength="50" /></td>
+        </tr>
+   	    <tr align="center">
+        </tr>
+   	    <tr>
+   	      <td nowrap="nowrap"><font size="+1">Apellido Materno:</font></td>
+   	      <td nowrap="nowrap"><input name="TXT_Materno" type="text" id="TXT_Materno" size="50" maxlength="50" /></td>
+        </tr>
+   	    <tr align="center">
+        </tr>
+   	    <tr align="center">
+        </tr>
+   	    <tr>
+   	      <td nowrap="nowrap"><font size="+1">No. de Control:</font></td>
+   	      <td nowrap="nowrap"><input name="TXT_Control" type="text" id="TXT_Control" size="50" maxlength="50" /></td>
+        </tr>
+         <tr align="right">     
+   	      <td colspan="2">
+          <br>
+          <input type="submit" name="button" id="button" value="       Enviar      " /></td>
+        </tr>
+        
+   	    </table>
+	</form>
+
+		</div>
+        
+			<!-- /productos -->
+		</section>
+		<aside id="sidebar">
+			
+			<div class="widget">
+				
+				<h3>SIGUENOS</h3>
+				<ul class="redes_list">
+					<li>
+						<a href="https://es-la.facebook.com/" target="_blank" title="Siguenos en Facebook">
+							<img src="img/logo_facebook.jpg" alt="Logo Facebook" />
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/" target="_blank" title="Siguenos en Twitter">
+							<img src="img/logo_twitter.jpg" alt="Logo Twitter" />
+						</a>
+					</li>
+					<li>
+						<a href="https://plus.google.com/up/search" target="_blank" title="Siguenos en G+">
+							<img src="img/logo_google.png" alt="Logo G+" />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<footer>
+        <br>
+        <br />
+		</footer>
+	</div>
+	
+	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="slider/responsiveslides.min.js"></script>
+	<script src="js/funciones.js"></script>
+</body>
+</html>

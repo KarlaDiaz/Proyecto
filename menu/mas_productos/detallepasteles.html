@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Coffee Tec</title>
+	<link rel="stylesheet" href="../../css/normalize.css">
+  	<link rel="stylesheet" href="../../slider/responsiveslides.css">
+	<link rel="stylesheet" href="../../css/estilos.css">
+	<link href='http://fonts.googleapis.com/css?family=Sonsie+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Offside' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+	
+	<div id="container">
+		<header>
+			<h1 align="justify" id="logo"><a href="../../index_2.php">Coffee Tec</a></h1>
+</header>
+		<nav id="menu_principal">
+			<a href="#" id="link_menu">Menú</a>
+			<ul>
+				<li class="active"><a href="../../index_2.php">Inicio</a></li>
+				<li><a href="../comida/dia.html">Menu Dia</a></li>
+				<li><a href="../papas/botanas.html">Botanas</a></li>
+				<li><a href="../bebidas/bebidas.html">Bebidas</a></li>
+			<li><a href="mas.html">Mas...</a></li>
+            <li><a href="../../php/salir.php">Cerrar Sesion</a></li>
+			</ul>
+		</nav>
+		<section id="content">
+			
+			<div id="video_menu" align="center">
+				<h2>Pasteles</h2>
+				<p><img src="../../img/postres/pay1.jpg" alt="Pasteles" width="275" height="183"></p><br>
+			</div>
+		    <!-- Descripción -->
+			<div id="descripcion_menu">
+            <form name="f1" action="" method="post" >
+				<table align="center">
+					<tr>
+						<td><strong>Ingredientes:</strong></td>
+                        <td >
+							Fresa:
+							  <input type="checkbox" name="jit" /><br>
+                            
+                            Chocolate:
+                            <input type="checkbox" name="ceb"/><br>
+                            Durazno:
+                            <input type="checkbox" name="chi"/><br>
+                        </td>
+					</tr>
+					<tr>
+						<td><strong>Precio: $</strong></td>
+						<td><input type="text" name="t1" id="precio" size="20" value="15" readonly/></td>
+					</tr>
+					<tr>
+						<td><strong>Productos:</strong></td>
+                        <td>
+                        <select size="1" name="se" id="pz" onchange="producto();">
+                        <option value="0">Seleccionar Pz.</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        </select>
+						</td>
+					</tr>
+                    <tr>
+						
+                        <td><strong>Subtotal: $</strong></td><td><input type="text" name="t3" id="subtotal" size="20" readonly value="" />
+                       </td>
+					</tr>
+				</table><br>
+                <input type="submit" value="COMPRAR" class="boton2" />
+              </form>
+			</div>
+		    <!-- /Descripción -->
+
+		    
+		</section>
+		<aside id="sidebar">
+			<div class="widget">
+				<h3>BUSCAR</h3>
+				<form method="post" action="#">
+					<input type="text" name="dato" placeholder="Search" />
+					<input type="submit" value="Buscar" class="boton1" />
+				</form>
+			</div>
+			<div class="widget">
+				<h3>FINALIZAR COMPRA</h3>
+                	<a href="../../carritocompra.html"><img src="../../img/Carrito.png" alt="carrito compra" width="114" height="115" title="carrito compra"></a>
+			</div>
+            <div class="widget">
+				<h3>SIGUENOS</h3>
+				<ul class="redes_list">
+					<li>
+						<a href="https://es-la.facebook.com/" target="_blank" title="Siguenos en Facebook">
+							<img src="../../img/logo_facebook.jpg" alt="Logo Facebook" />
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/" target="_blank" title="Siguenos en Twitter">
+							<img src="../../img/logo_twitter.jpg" alt="Logo Twitter" />
+						</a>
+					</li>
+					<li>
+						<a href="https://plus.google.com/up/search" target="_blank" title="Siguenos en G+">
+							<img src="../../img/logo_google.png" alt="Logo G+" />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<footer>
+		</footer>
+	</div>
+	
+	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+	<script src="../../js/jquery-1.10.2.min.js"></script>
+	<script src="../../slider/responsiveslides.min.js"></script>
+	<script src="../../js/funciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Coffee Tec</title>
+	<link rel="stylesheet" href="../../css/normalize.css">
+  	<link rel="stylesheet" href="../../slider/responsiveslides.css">
+	<link rel="stylesheet" href="../../css/estilos.css">
+	<link href='http://fonts.googleapis.com/css?family=Sonsie+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Offside' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+	
+	<div id="container">
+		<header>
+			<h1 id="logo"><a href="../../index_2.php">Coffee Tec</a></h1>
+		</header>
+		<nav id="menu_principal">
+			<a href="#" id="link_menu">Menú</a>
+			<ul>
+				<li class="active"><a href="../../index_2.php">Inicio</a></li>
+				<li><a href="../comida/dia.html">Menu Dia</a></li>
+			<li><a href="../papas/botanas.html">Botanas</a></li>
+			<li><a href="bebidas.html">Bebidas</a></li>
+			<li><a href="../mas_productos/mas.html">Mas...</a></li>
+            <li><a href="../../php/salir.php">Cerrar Sesion</a></li>
+			</ul>
+		</nav>
+		<section id="content">
+			
+			<div id="lista_menus">
+				<h2>Bebidas</h2>
+				<div class="item_lista">
+					<h3>Refrecos</h3>
+					<a href="detallerefresco.html" title="Refresco">
+						<img src="../../img/refrescos/refrescos.jpg" alt="Refresco" width="203" height="99">
+					</a>
+				  <p><strong>Descripción: </strong>Fanta, Cocacola, Pepsi, Sprite, Life...</p>
+					<a href="detallerefresco.html" class="boton1 btn_leer_mas">Ver Más</a>
+				</div>
+				<div class="item_lista">
+					<h3>Agua</h3>
+			      <a href="detalleagua.html" title="Agua"><img src="../../img/refrescos/agua/BONAFONT.jpg" alt="Agua" width="209" height="109"></a>
+			      <p><strong>Descripción: </strong> Bonafont, Levite, Ciel...</p>
+					<a href="detalleagua.html" class="boton1 btn_leer_mas">Ver Más</a>
+				</div>
+				<div class="item_lista">
+					<h3>Jugo</h3>
+					<a href="detallejugo.html" title="Menu 3">
+						<img src="../../img/refrescos/jugos/boing1.jpg" alt="Jugo" width="216" height="124">
+					</a>
+				  <p><strong>Descripción: </strong>Boing, Jumex...</p>
+					<a href="detallejugo.html" class="boton1 btn_leer_mas">Ver Más</a>
+				</div>
+			</div>
+		    
+		</section>
+		<aside id="sidebar">
+			<div class="widget">
+				<h3>BUSCAR</h3>
+				<form method="post" action="#">
+					<input type="text" name="dato" placeholder="Search"/>
+					<input type="submit" value="Buscar" class="boton1" />
+				</form>
+			</div>
+			<div class="widget">
+				<h3>FINALIZAR COMPRA</h3>
+                	<a href="../../carritocompra.html"><img src="../../img/Carrito.png" alt="carrito compra" width="114" height="115" title="carrito compra"></a>
+			</div>
+            <div class="widget">
+				<h3>SIGUENOS</h3>
+				<ul class="redes_list">
+					<li>
+						<a href="https://es-la.facebook.com/" target="_blank" title="Siguenos en Facebook">
+							<img src="../../img/logo_facebook.jpg" alt="Logo Facebook" />
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/" target="_blank" title="Siguenos en Twitter">
+							<img src="../../img/logo_twitter.jpg" alt="Logo Twitter" />
+						</a>
+					</li>
+					<li>
+						<a href="https://plus.google.com/up/search" target="_blank" title="Siguenos en G+">
+							<img src="../../img/logo_google.png" alt="Logo G+" />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<footer>
+		</footer>
+	</div>
+	
+	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+	<script src="../../js/jquery-1.10.2.min.js"></script>
+	<script src="../../slider/responsiveslides.min.js"></script>
+	<script src="../../js/funciones.js"></script>
+</body>
+</html>
